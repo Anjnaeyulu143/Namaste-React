@@ -86,3 +86,24 @@
 - JSX will prevent from cross-script-site attacks..
 - <Title/>, <Title></Title> and {Title}. These three things are same.. We can use any one of them, But best practice is using <Title/>
 - JSX is making much more readable then React..
+
+# Episode -04 -> Talk is cheap, Show the code (Learnings)
+
+- In react props are used send data to the component
+- Props are just normal arguments to the function..
+- Passing a props to a component is just like a passing argument to the normal function..
+- React all props are wrap into the single object known as props object..
+- When we want to dynamically pass data to the component we need to pass it through the props..
+
+- finally, destructure that props object and use in the component.
+- Config driven UI -> Controlling UI based on the backend data.
+- UI Layer and Data Layer both are important..
+
+- When sending object as the prop resData = {objName} key will go as the prop inside the component
+
+- Array.join() is used split element based on the separator..
+- What is Optional Chaining ?
+- Whenever we are lopping we need give key to the the component.
+- By assigning unique key to the react component while mapping we are optimizing the rendering speed.
+- Never use index as the key.
+- not using keys (not acceptable) -> use index -> far better using unique id as key.
