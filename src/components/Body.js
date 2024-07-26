@@ -1,5 +1,5 @@
 import Card from "./Card";
-import soupsArr from "../../utils/mockData";
+import soupsArr from "./utils/mockData";
 import { useState, useEffect } from "react";
 
 const Body = () => {
