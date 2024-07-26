@@ -1,4 +1,4 @@
-import { IMG_URL } from "./utils/constants";
+import { IMG_URL } from "../utils/constants";
 
 const Card = (props) => {
   const { item } = props.soupObj;

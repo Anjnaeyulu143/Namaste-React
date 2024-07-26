@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import Header from "./src/components/Header";
-import Body from "./src/components/Body";
+import Header from "./src/componenets/Header";
+import Body from "./src/componenets/Body";
 
 //React Element
 const heading = <h1 className="heading">Hello World!</h1>;
