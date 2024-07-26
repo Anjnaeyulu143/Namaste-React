@@ -98,12 +98,52 @@
 - finally, destructure that props object and use in the component.
 - Config driven UI -> Controlling UI based on the backend data.
 - UI Layer and Data Layer both are important..
-
 - When sending object as the prop resData = {objName} key will go as the prop inside the component
-
-- Array.join() is used split element based on the separator..
+- Array.join() is used to split elements based on the separator..
 - What is Optional Chaining ?
-- Whenever we are lopping we need give key to the the component.
+- Whenever we are lopping we need to give a key to the the component.
 - By assigning unique key to the react component while mapping we are optimizing the rendering speed.
 - Never use index as the key.
 - not using keys (not acceptable) -> use index -> far better using unique id as key.
+
+# Episode -05 -> Let's get hooked (Learnings)
+
+- !Make a separate file for the every react component.
+- !Never ever store hardcoded data and url in the component files.
+- ! Create UTILS file store all common files in that file.
+
+- There are two types of export and import
+- 1. Default Export and Import. -> It only exports only one thing.
+- 2. Named Export and Import. -> If we want to export multiple things then we use Named Export..
+
+- How to export default export -> End of the file write this expression (export default fileName)
+
+- How to export Named export -> Beginning of the variable use export keyword -> export const a = 10
+- In utils use Capital Snake Case Conversion.
+- Import {NameExport} filepath.
+- React is Fast in DOM manipulation -> Data Changes then automatically changes DOM..
+
+# React Hooks
+
+- Normal JS utility Function.
+- State Variable is a -> Super Powerful Variable...
+- To create React Variable we need to use React Hooks.
+- Hook is just a normal function, but has some extra power and written logic behind it..
+
+- Two very important Functions
+- 1. UseState() -> Super Powerful State Variables -> Used to create state variable inside React known as the react variable.
+- 2. UseEffect()
+- Utility Functions are Local State Variable.
+- Utility Functions -> React Hooks syncs UI with the data layer.
+- Whenever React state variable changes, React is re rendering the component.
+- React will make DOM operations super fast.
+- Virtual DOM Manipulation -> React uses Reconciliation which is also known as the React Fiber.
+- React Elements are Normal Objects -> Virtual DOM stores these Normal Objects.
+- Virtual DOM is representation of the the Actual DOM.
+- Diff Algorithm Compares the difference between the NEW DOM with the OLD DOM.
+- Finding the difference between the two HTML is tough, Finding the difference between the two is fast.
+- React does'nt touch the Actual DOM a lot.
+- Incremental Rendering is uses the React while rendering the Virtual DOM..
+- React is Fast, Because react is doing efficient DOM manipulation.
+- Set Function -> Whenever we trigger the set function the diff algorithm is triggered and updated the UI.
+- Set Function is returns the arr.

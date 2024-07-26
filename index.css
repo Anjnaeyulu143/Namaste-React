@@ -72,3 +72,9 @@
 .about_item > h3 {
   margin: 0px;
 }
+
+.filter-btn {
+  margin: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
